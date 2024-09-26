@@ -1,0 +1,130 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #001f3f; /* Navy blue background */
+    color: #ffffff; /* White text */
+    text-align: center;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+header {
+    background-color: #003366; /* Dark navy */
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Flex display for horizontal nav */
+    justify-content: center; /* Center navigation */
+}
+
+nav ul li {
+    margin: 0 20px; /* Increased margin for spacing */
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #d4edda; /* Light green */
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px; /* Limit width for better readability */
+    margin: auto; /* Center main content */
+}
+
+.categories {
+    margin-bottom: 40px;
+}
+
+.category-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the categories */
+}
+
+.category {
+    background-color: #003366; /* Dark navy blue */
+    border: 1px solid #ffffff; /* White border */
+    border-radius: 8px; /* More rounded corners */
+    padding: 20px;
+    margin: 15px; /* Increased margin for spacing */
+    width: 220px; /* Adjusted width */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s; /* Added box-shadow transition */
+    position: relative; /* Enable pseudo-elements */
+    overflow: hidden; /* Prevent overflow of child elements */
+}
+
+.category:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.7); /* Deeper shadow on hover */
+}
+
+h2 {
+    color: #d4edda; /* Light green color for headings */
+}
+
+.info-section {
+    margin: 40px 0;
+    background-color: #001f3f; /* Navy blue background for info sections */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea {
+    width: 80%; /* Wider input fields */
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ffffff; /* White border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #003366; /* Dark navy */
+    color: #ffffff;
+}
+
+textarea {
+    height: 80px; /* Adjusted height for feedback box */
+}
+
+button {
+    background-color: #28a745; /* Green button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s; /* Added transform transition */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+footer {
+    background-color: #003366; /* Dark navy blue background */
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0; /* Margin for footer paragraphs */
+}
