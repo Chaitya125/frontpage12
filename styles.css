@@ -2,14 +2,14 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #001f3f; /* Navy blue background */
-    color: #ffffff; /* White text */
+    background-color: #FFEDD5; /* Light peach background */
+    color: #5B3F00; /* Dark brown text */
     text-align: center;
     overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 header {
-    background-color: #003366; /* Dark navy */
+    background-color: #FFAA00; /* Bright orange for header */
     padding: 20px 0;
 }
 
@@ -25,14 +25,14 @@ nav ul li {
 }
 
 nav a {
-    color: #ffffff;
+    color: #FFEDD5; /* Light peach text for nav */
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #d4edda; /* Light green */
+    color: #FF6F00; /* Darker orange hover effect */
 }
 
 main {
@@ -52,32 +52,33 @@ main {
 }
 
 .category {
-    background-color: #003366; /* Dark navy blue */
-    border: 1px solid #ffffff; /* White border */
-    border-radius: 8px; /* More rounded corners */
+    background-color: #FFAA00; /* Bright orange for category cards */
+    border: 1px solid #FFD700; /* Golden yellow border */
+    border-radius: 8px; /* Rounded corners */
     padding: 20px;
     margin: 15px; /* Increased margin for spacing */
     width: 220px; /* Adjusted width */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s, box-shadow 0.3s; /* Added box-shadow transition */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Softer shadow */
+    transition: transform 0.3s, box-shadow 0.3s;
     position: relative; /* Enable pseudo-elements */
     overflow: hidden; /* Prevent overflow of child elements */
 }
 
 .category:hover {
+    background-color: #FFD700; /* Golden yellow hover effect */
     transform: scale(1.05);
-    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.7); /* Deeper shadow on hover */
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
 }
 
 h2 {
-    color: #d4edda; /* Light green color for headings */
+    color: #FF6F00; /* Darker orange for headings */
 }
 
 .info-section {
     margin: 40px 0;
-    background-color: #001f3f; /* Navy blue background for info sections */
+    background-color: #FFEDD5; /* Light peach for info sections */
     border-radius: 8px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Softer shadow */
     padding: 20px;
 }
 
@@ -91,10 +92,10 @@ input, textarea {
     width: 80%; /* Wider input fields */
     margin: 10px 0;
     padding: 10px;
-    border: 1px solid #ffffff; /* White border */
+    border: 1px solid #5B3F00; /* Dark brown border */
     border-radius: 5px; /* Rounded corners */
-    background-color: #003366; /* Dark navy */
-    color: #ffffff;
+    background-color: #FFEDD5; /* Light peach input background */
+    color: #5B3F00; /* Dark brown text */
 }
 
 textarea {
@@ -102,8 +103,8 @@ textarea {
 }
 
 button {
-    background-color: #28a745; /* Green button */
-    color: white;
+    background-color: #FF6F00; /* Dark orange button */
+    color: #FFEDD5; /* Light peach text */
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -112,13 +113,13 @@ button {
 }
 
 button:hover {
-    background-color: #218838; /* Darker green on hover */
+    background-color: #FFAA00; /* Bright orange hover effect */
     transform: scale(1.05); /* Scale effect on hover */
 }
 
 footer {
-    background-color: #003366; /* Dark navy blue background */
-    color: white;
+    background-color: #5B3F00; /* Dark brown for footer */
+    color: #FFEDD5; /* Light peach text */
     padding: 10px 0;
     position: relative;
     bottom: 0;
